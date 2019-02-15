@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+  <link rel="stylesheet" href="navbarstyle.css">
+  <link rel="stylesheet" href="zigzagstyle.css">
+  <link rel="stylesheet" href="linkcolorstyle.css">
+</head>
+<body>
+
+<a href="home.html">
+  <img src="sdmlogo.jpg" alt="Sundown Marathon 2019" style="float:left; width:95px; height:53px;">
+</a>
+
+<div class="topnav">
+  <a href="home.html">HOME</a>
+  <a class="active" href="about us.html">ABOUT US</a>
+  <a href="race info.html">RACE INFO</a>
+  <a href="sponsors.html">SPONSORS</a>
+</div>
+
+
+
+
+
+
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="600" autoplay>
+    <source src="sdwlvideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 1150; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 420; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 600; 
+} 
+</script>
+
+
+
+
+
+
+
+
+
+<p style="text-align:center; font-family:berlin">
+<big>Our Story</big>
+<br>
+<br>
+Asia’s biggest night run,
+<br>
+A favourite amongst the running community
+<br>
+<br>
+Beginning in 2008, Sundown Marathon will be expanding to China and US in 2019.
+<br>
+This year,
+<br>
+it will not only offer a fresh perspective, its unique characteristics will also be preserved while its focus expanded to highlight inclusivity in sports.
+<br>
+We proudly present to you...OSIM Sundown Marathon! Set to return to Singapore on June 1, 2019.
+
+
+
+
+
+
+
+
+
+<!-- Sundown With Love Section -->
+<div class="container">
+
+<h1 id="reveal" style="text-align:center; color:hotpink; font-size:300%">What is this year's special theme? <button float:center type="button" onclick="myFunction()">Reveal</button></h1>
+
+<script>
+function myFunction() { 
+  document.getElementById("reveal").innerHTML = "Sundown With Love";
+}
+</script>
+
+<hr style="border-color:white; border-width:5px">
+  <div class="row">
+    <div class="column-66">
+      <p class="xlarge-font"><b>Sundown With Love</b></p>
+      <p class="large-font" style="color:MediumSeaGreen;"><b>“Not all heroes wear capes.”</b>
+      <br>
+      <span style="font-size:24px">
+      A part of Sundown Marathon’s Charity outreach campaign.
+      </span>
+      <p style="font-family: berlin">
+      Every year, Sundown with Love aims to gather the running community for one simple reason – to give back to the community.
+      This year, OSIM Sundown Marathon Singapore aims to champion the cause of inclusivity in sports and the wider community and will lead by example to contribute funds to the ongoing charity initiative – Sundown with Love. 
+      The beneficiaries are Singapore Disability Sports Council and The Straits Times School Pocket Money Fund. 
+      For every race slot purchased, $1 of the registration fee will be donated to the two beneficiaries, and runners will also have the opportunity to donate additional funds to the causes via the website.
+      </p>
+      </p>
+ </div>
+    <div class="column-33">
+        <img src="sdwl.png" width="335" height="471" title="Sundown With Love">
+    </div>
+  </div>
+</div>
+
+<!-- Singapore Disability Sports Council Section -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="sdsc.jpg" alt="App" width="335" height="471" title="Singapore Disability Sports Council">
+    </div>
+    <div class="column-66">
+      <p class="xlarge-font"><b>Singapore Disability Sports Council</b></p>
+      <p class="large-font" style="color:red;"><b>A national sports body</b>
+      <br>
+      <span style="font-size:24px">
+      an advocate of disability sports for the past 45 years.
+      </span>
+      <p style="font-family: berlin">
+      The goal of SDSC is to enable PWD to realize their potential through sports.
+      Founded on the belief in the dignity, capability and value of persons with disabilities (PWD),
+      their mission is to enable our sportspersons with disabilities to realise their individual potential by providing them with the opportunity to participate and excel in sports both recreationally and competitively.
+      </p>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Staits Times School Pocket Money Fund Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <p class="xlarge-font"><b>Staits Times School Pocket Money Fund</b></p>
+      <p class="large-font" style="color:MediumSeaGreen;"><b>A community project initiated</b>
+      <br>
+      <span style="font-size:24px">
+      to provide financial aid to children from low-income families.
+      </span>
+      <p style="font-family: berlin">
+      Since the project inception in 2000, the Fund has helped over 160,000 cases of children and youth in need and disbursed over $60m.
+      They can use this money for school-related expenses, such as buying a meal during recess, paying for transport or use it to meet other schooling needs.
+      The financial help also eases the burden of the many parents who are already struggling to feed their families on their meagre income.
+      </p>
+      </p>
+    </div>
+    <div class="column-33">
+        <img src="stspmf.jpg" width="335" height="471" title="Staits Times School Pocket Money Fund">
+    </div>
+  </div>
+<hr style="border-color:white; border-width:5px">
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<div style="background-color:darkslategrey">
+  <div class="row">
+    <div class="column-33" style="width: 45%;">
+    </div>
+    <div class="column-66" style="width: 55%;">
+      <a href="https://www.instagram.com/sundownmarathon/?hl=en" target="_blank">
+        <img src="iglogo.png" alt="Instagram link" style="float:left; width:35px; height:35px; margin:3px">
+      </a>
+      <a href="https://www.facebook.com/SundownMarathonSG" target="_blank">
+        <img src="fblogo.png" alt="Facebook link" style="float:left; width:35px; height:35px; margin:3px">
+      </a>
+      <a href="https://www.youtube.com/user/sundownmarathon/videos" target="_blank">
+        <img src="ytlogo.png" alt="Youtube link" style="float:left; width:35px; height:35px; margin:3px">
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
